@@ -20,6 +20,8 @@ html {
 img{
 	width: 100%;
 }
+
+
 body{
   font-family: sans-serif;
   @include zero;
@@ -28,6 +30,8 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
+
+
 }
 
 .logo{
@@ -65,7 +69,8 @@ header {
 		text-decoration: none;
 
 		&:hover{
-			background: $light-grey;
+			background: $orange;
+			opacity: .75;
 		}
 	}
 }

@@ -83,7 +83,8 @@ header {
 }
 
 .navigation ul a:hover {
-  background: #ccc;
+  background: #ff5500;
+  opacity: .75;
 }
 
 .toggle-btn,
