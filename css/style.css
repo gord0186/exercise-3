@@ -46,6 +46,10 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+.logo {
+  width: 100px;
+}
+
 header {
   padding: 0 1em;
   position: relative;
@@ -63,23 +67,23 @@ header {
 
 .navigation ul li {
   list-style-type: none;
-}
-
-.navigation ul li:first-child a {
-  border-top: 1px solid #ccc;
+  font-family: arial, san-sarif;
 }
 
 .navigation ul a {
   display: block;
   padding: .5em 1em;
-  border-bottom: 1px solid #ccc;
   color: #222;
   text-align: center;
+  text-decoration: none;
+}
+
+.navigation ul a:hover {
+  background: #ccc;
 }
 
 .toggle-btn,
 .close-btn {
-  text-decoration: none;
   color: #222;
   height: 40px;
   width: 40px;
@@ -142,6 +146,22 @@ sliding navigation
   .toggle-btn,
   .close-btn {
     display: none;
+  }
+  header {
+    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    padding: 0;
+    width: 9em;
+    position: absolute;
+  }
+  header .navigation {
+    width: 9em;
+  }
+  header a:hover {
+    background: #ccc;
+  }
+  .logo {
+    padding: .1em;
   }
 }
 

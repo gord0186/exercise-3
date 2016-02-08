@@ -28,6 +28,10 @@ body{
   }
 }
 
+.logo{
+	width:100px;
+}
+
 header {
   padding: 0 1em;
   position: relative;
@@ -45,23 +49,27 @@ header {
 
 	li{
 		list-style-type: none;
-		&:first-child a{
-			border-top: 1px solid $light-grey;
-		}
+		font-family: $font;
+
+
+
 	}
 
 	a{
 		display: block;
 		padding: .5em 1em;
-		border-bottom: 1px solid $light-grey;
 		color: $text-color;
 		text-align: center;
+		text-decoration: none;
+
+		&:hover{
+			background: $light-grey;
+		}
 	}
 }
 
 .toggle-btn,
 .close-btn{
-	text-decoration: none;
 	color: $text-color;
 	height: 40px;
 	width:40px;
@@ -128,6 +136,32 @@ sliding navigation
 	.close-btn{
 		display: none;
 	}
+
+	header{
+		background: $opacity-white;
+		height: 100%;
+		padding: 0;
+		width: 9em;
+		position: absolute;
+
+		.navigation{
+			width: 9em;
+		}
+
+		a{
+
+			&:hover{
+				background: $light-grey;
+			}
+
+		}
+
+	}
+
+	.logo{
+		padding: .1em;
+	}
+
 }
 
 //show navigation on screen when there is no js
