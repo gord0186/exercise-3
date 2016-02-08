@@ -152,7 +152,7 @@ sliding navigation
     display: none;
   }
   header {
-    background: rgba(255, 255, 255, 0.7);
+    background: white;
     height: 100%;
     width: 9em;
     position: fixed;
