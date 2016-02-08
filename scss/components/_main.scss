@@ -75,7 +75,6 @@ header {
 	width:40px;
 
 	&:before{
-		border: 1px solid $light-grey;
 		display: inline-block;
 		padding: 13px 11px;
 		height: 40px;
@@ -140,9 +139,8 @@ sliding navigation
 	header{
 		background: $opacity-white;
 		height: 100%;
-		padding: 0;
 		width: 9em;
-		position: absolute;
+		position: fixed;
 
 		.navigation{
 			width: 9em;
@@ -156,10 +154,6 @@ sliding navigation
 
 		}
 
-	}
-
-	.logo{
-		padding: .1em;
 	}
 
 }

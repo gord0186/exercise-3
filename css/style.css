@@ -73,7 +73,7 @@ header {
 .navigation ul a {
   display: block;
   padding: .5em 1em;
-  color: #222;
+  color: #ff5500;
   text-align: center;
   text-decoration: none;
 }
@@ -84,14 +84,13 @@ header {
 
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: #ff5500;
   height: 40px;
   width: 40px;
 }
 
 .toggle-btn:before,
 .close-btn:before {
-  border: 1px solid #ccc;
   display: inline-block;
   padding: 13px 11px;
   height: 40px;
@@ -150,18 +149,14 @@ sliding navigation
   header {
     background: rgba(255, 255, 255, 0.7);
     height: 100%;
-    padding: 0;
     width: 9em;
-    position: absolute;
+    position: fixed;
   }
   header .navigation {
     width: 9em;
   }
   header a:hover {
     background: #ccc;
-  }
-  .logo {
-    padding: .1em;
   }
 }
 
